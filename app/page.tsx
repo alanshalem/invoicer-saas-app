@@ -1,3 +1,4 @@
+import AccordionFloat from "@/components/AccordionFloat";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import InvoiceCTA from "@/components/InvoiceCTA";
@@ -12,6 +13,7 @@ export default function Home() {
       <InvoiceCTA />
       <Features />
       <Pricing />
+      <AccordionFloat />
     </main>
   );
 }
