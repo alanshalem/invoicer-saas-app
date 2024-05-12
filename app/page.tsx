@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import InvoiceCTA from "@/components/InvoiceCTA";
 import Steps from "@/components/Steps";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <Steps />
+      <InvoiceCTA />
     </main>
   );
 }
