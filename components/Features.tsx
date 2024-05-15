@@ -1,9 +1,11 @@
 import { BsCurrencyDollar, BsFillGrid1X2Fill } from "react-icons/bs";
 import ThemeLink from "./ThemeLink";
+import { useTranslations } from "next-intl";
 
 type Props = {};
 
 const Features = (props: Props) => {
+  const t = useTranslations("FeaturesSection");
   const features = [
     {
       icon: BsCurrencyDollar,
@@ -57,7 +59,7 @@ const Features = (props: Props) => {
   return (
     <div className="bg-slate-950 py-8 md:py-16 md:px-16 px-4 text-slate-50 flex flex-col items-center gap-8">
       <h2 className="text-center text-2xl md:text-5xl font-semibold  mb-12">
-        Features of Invoice Generator
+        {t("title")}
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8">
         {features.map((feature, i) => {

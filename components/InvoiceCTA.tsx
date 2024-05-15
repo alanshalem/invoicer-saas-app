@@ -2,8 +2,10 @@ import React from "react";
 import Image from "next/image";
 import ThemeLink from "./ThemeLink";
 import invoiceBg from "../public/images/invoice-bg.png";
+import { useTranslations } from "next-intl";
 
 const InvoiceCTA = () => {
+  const t = useTranslations("InvoiceCTASection");
   return (
     <div className="flex items-center justify-center">
       <div className="relative w-full h-screen">
@@ -18,7 +20,7 @@ const InvoiceCTA = () => {
         <div className="absolute inset-0 flex items-center justify-center">
           <ThemeLink
             className="bg-rose-600 hover:bg-rose-700 focus:ring-rose-300"
-            title="Create your first Invoice"
+            title={t("title")}
             href="/invoice/new"
           />
         </div>

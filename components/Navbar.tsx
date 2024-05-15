@@ -2,13 +2,16 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import ThemeLink from "./ThemeLink";
-import { BiMenu } from "react-icons/bi";
+import { BiMenu, BiWorld } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import { useTranslations } from "next-intl";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 type Props = {};
 
 const Navbar = (props: Props) => {
   const [show, setShow] = useState(false);
+  const t = useTranslations("Navbar");
 
   return (
     <>
@@ -18,17 +21,20 @@ const Navbar = (props: Props) => {
           Invoicer
         </Link>
         <nav className="hidden sm:flex items-center gap-3">
-          <Link href="/">Features</Link>
-          <Link href="/">Pricing</Link>
-          <Link href="/">Free Tools</Link>
+          <Link href="/">{t("links.features")}</Link>
+          <Link href="/">{t("links.pricing")}</Link>
+          <Link href="/">{t("links.freeTools")}</Link>
         </nav>
         <div className="hidden sm:flex items-center gap-4">
-          <Link href="/login">Login</Link>
+          <Link href="/login">{t("links.login")}</Link>
           <ThemeLink
             className="bg-red-600 hover:bg-red-700  focus:ring-red-300"
             href="/register"
             title="Register"
           />
+          <div className="hidden sm:flex items-center gap-4">
+            <LanguageSwitcher />
+          </div>
         </div>
         {/* HAMBURGER MENU */}
         <button onClick={() => setShow(true)} className="sm:hidden">
@@ -50,13 +56,13 @@ const Navbar = (props: Props) => {
           </button>
         </div>
         <nav className="flex flex-col items-start gap-3 mb-10">
-          <Link href="/">Features</Link>
-          <Link href="/">Pricing</Link>
-          <Link href="/">Free Tools</Link>
+          <Link href="/">{t("links.features")}</Link>
+          <Link href="/">{t("links.pricing")}</Link>
+          <Link href="/">{t("links.freeTools")}</Link>
           {/* {status === "authenticated" && <a href="/invoice">View Invoices</a>} */}
         </nav>
         <div className="flex flex-col items-start gap-4">
-          <Link href="/login">Login</Link>
+          <Link href="/login">{t("links.login")}</Link>
           <ThemeLink
             className="bg-rose-600 hover:bg-rose-700 focus:ring-rose-300"
             title="Register"

@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 import { useRef, useState } from "react";
 
 type FaqsCardProps = {
@@ -78,6 +79,7 @@ const FaqsCard = (props: FaqsCardProps) => {
 type Props = {};
 
 const AccordionFloat = (props: Props) => {
+  const t = useTranslations("FrequentlyAskedQuestions");
   const faqs = [
     {
       title: "How can I make an invoice for free?",
@@ -104,11 +106,10 @@ const AccordionFloat = (props: Props) => {
     <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8">
       <div className="space-y-3 text-center">
         <h1 className="text-2xl md:text-4xl text-gray-800 font-semibold">
-          Frequently Asked Questions
+          {t("title")}
         </h1>
         <p className="text-gray-600 max-w-lg mx-auto text-lg">
-          Answered all frequently asked questions, Still confused? feel free to
-          contact us.
+          {t("description")}
         </p>
       </div>
       <div className="mt-14 max-w-2xl mx-auto">

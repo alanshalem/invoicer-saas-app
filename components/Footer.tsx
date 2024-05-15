@@ -1,9 +1,11 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 type Props = {};
 
 const Footer = (props: Props) => {
+  const t = useTranslations("FooterSection");
   return (
     <footer className="bg-white rounded-lg shadow">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
@@ -20,28 +22,28 @@ const Footer = (props: Props) => {
               height={32}
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap">
-              Flowbite
+              Invoicer
             </span>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">
-                About
+                {t("about")}
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">
-                Privacy Policy
+                {t("privacyPolicy")}
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline me-4 md:me-6">
-                Licensing
+                {t("licensing")}
               </a>
             </li>
             <li>
               <a href="#" className="hover:underline">
-                Contact
+                {t("contact")}
               </a>
             </li>
           </ul>

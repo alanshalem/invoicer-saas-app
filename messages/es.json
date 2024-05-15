@@ -1,0 +1,68 @@
+{
+  "FrequentlyAskedQuestions": {
+    "title": "Preguntas frecuentes",
+    "description": "Respondidas todas las preguntas frecuentes, ¿Todavía confundido? no dudes en contactarnos."
+  },
+  "FeaturesSection": {
+    "title": "Características del Generador de Facturas",
+    "description": "Respondidas todas las preguntas frecuentes, ¿Todavía confundido? no dudes en contactarnos."
+  },
+  "FooterSection": {
+    "title": "Invoicer",
+    "description": "© 2023 Invoicer. Todos los derechos reservados.",
+    "about": "Sobre Nosotros",
+    "privacyPolicy": "Politica de Privacidad",
+    "licensing": "Licencia",
+    "contact": "Contacto"
+  },
+  "HeroSection": {
+    "title": "Generador de Facturas Gratis - Creador de Facturas",
+    "description": "Crea, administra y rastrea facturas recurrentes. Descarga como PDF, envía por correo electrónico e imprime facturas.",
+    "button": "Crea tu primera factura"
+  },
+  "InvoiceCTASection": {
+    "title": "Crea tu primera factura"
+  },
+  "Navbar": {
+    "brand": "Facturador",
+    "links": {
+      "features": "Características",
+      "pricing": "Precios",
+      "freeTools": "Herramientas Gratuitas",
+      "login": "Iniciar sesión",
+      "register": "Registrarse"
+    }
+  },
+  "PricingSection": {
+    "title": "Precios del Generador de Facturas",
+    "description": "Paga solo cuando necesites características premium.",
+    "freePlan": {
+      "title": "Plan Gratis",
+      "description": "Crea hasta 100 facturas y otros documentos en un año, completamente gratis. Facturas, Cotizaciones, Pro Forma, Gastos y más. Sin cargos ocultos.",
+      "button": "Crear Factura Gratis"
+    },
+    "premiumPlan": {
+      "title": "Plan Premium",
+      "description": "Administra tu contabilidad a un ritmo más rápido con características premium adicionales a un costo mínimo.",
+      "button": "Explorar Características Premium"
+    }
+  },
+  "StepsSection": {
+    "title": "Crea tu Factura en Menos de 2 Minutos",
+    "steps": [
+      {
+        "number": "1",
+        "description": "Detalles de la Factura"
+      },
+      {
+        "number": "2",
+        "description": "Tus Datos Bancarios (Opcional)"
+      },
+      {
+        "number": "3",
+        "description": "Selecciona Diseño y Colores",
+        "description2": "(Descarga o Envía la Factura por Correo Electrónico)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "FrequentlyAskedQuestions": {
+    "title": "Frequently Asked Questions",
+    "description": "Answered all frequently asked questions, Still confused? feel free to contact us."
+  },
+  "FeaturesSection": {
+    "title": "Features of Invoice Generator",
+    "description": "Answered all frequently asked questions, Still confused? feel free to contact us."
+  },
+  "FooterSection": {
+    "title": "Invoicer",
+    "description": "© 2024 Invoicer. All Rights Reserved.",
+    "about": "About",
+    "privacyPolicy": "Privacy Policy",
+    "licensing": "Licensing",
+    "contact": "Contact"
+  },
+  "HeroSection": {
+    "title": "Free Invoice Generator - Invoice Maker",
+    "description": "Create, Manage and Track recurring invoices. Download as PDF, email and print invoices.",
+    "button": "Create your first Invoice"
+  },
+  "InvoiceCTASection": {
+    "title": "Create your first Invoice"
+  },
+  "Navbar": {
+    "brand": "Invoicer",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "freeTools": "Free Tools",
+      "login": "Login",
+      "register": "Register"
+    }
+  },
+  "PricingSection": {
+    "title": "Pricing of Invoice Generator",
+    "description": "Only Pay When You Need Premium Features.",
+    "freePlan": {
+      "title": "Free Plan",
+      "description": "Create up to 100 invoices and other documents in a year - completely free. Invoices, Quotations, Pro Forma, Expenses and more. No hidden charges.",
+      "button": "Create Free Invoice"
+    },
+    "premiumPlan": {
+      "title": "Premium Plan",
+      "description": "Manage your accounting at faster pace with additional premium features at minimal cost.",
+      "button": "Explore Premium Features"
+    }
+  },
+  "StepsSection": {
+    "title": "Create Your Invoice in Less than 2 Minutes",
+    "steps": [
+      {
+        "number": "1",
+        "description": "Invoice Details"
+      },
+      {
+        "number": "2",
+        "description": "Your Bank Details (Optional)"
+      },
+      {
+        "number": "3",
+        "description": "Select Design & Colors",
+        "description2": "(Download or Email Invoice)"
+      }
+    ]
+  }
+}
